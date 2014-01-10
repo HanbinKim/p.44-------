@@ -21,6 +21,13 @@
 		008C907B187FBD3A0079915B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008C905D187FBD390079915B /* UIKit.framework */; };
 		008C9083187FBD3A0079915B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 008C9081187FBD3A0079915B /* InfoPlist.strings */; };
 		008C9085187FBD3A0079915B /* o_44_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 008C9084187FBD3A0079915B /* o_44_______Tests.m */; };
+		008C9093187FBF690079915B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008C9059187FBD390079915B /* Foundation.framework */; };
+		008C9094187FBF690079915B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008C905B187FBD390079915B /* CoreGraphics.framework */; };
+		008C9095187FBF690079915B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008C905D187FBD390079915B /* UIKit.framework */; };
+		008C90B2187FBF690079915B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008C9078187FBD3A0079915B /* XCTest.framework */; };
+		008C90B3187FBF690079915B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008C9059187FBD390079915B /* Foundation.framework */; };
+		008C90B4187FBF690079915B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008C905D187FBD390079915B /* UIKit.framework */; };
+		008C90CD187FBFE50079915B /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 008C90CC187FBFE50079915B /* ModalViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +37,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 008C9055187FBD390079915B;
 			remoteInfo = "o.44 실습";
+		};
+		008C90B5187FBF690079915B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 008C904E187FBD390079915B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 008C9091187FBF690079915B;
+			remoteInfo = ModalViewController;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -53,6 +67,10 @@
 		008C9080187FBD3A0079915B /* o.44 실습Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "o.44 실습Tests-Info.plist"; sourceTree = "<group>"; };
 		008C9082187FBD3A0079915B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		008C9084187FBD3A0079915B /* o_44_______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "o_44_______Tests.m"; sourceTree = "<group>"; };
+		008C9092187FBF690079915B /* ModalViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModalViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		008C90B1187FBF690079915B /* ModalViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModalViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		008C90CB187FBFE50079915B /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		008C90CC187FBFE50079915B /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +94,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		008C908F187FBF690079915B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008C9094187FBF690079915B /* CoreGraphics.framework in Frameworks */,
+				008C9095187FBF690079915B /* UIKit.framework in Frameworks */,
+				008C9093187FBF690079915B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		008C90AE187FBF690079915B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008C90B2187FBF690079915B /* XCTest.framework in Frameworks */,
+				008C90B4187FBF690079915B /* UIKit.framework in Frameworks */,
+				008C90B3187FBF690079915B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -94,6 +132,8 @@
 			children = (
 				008C9056187FBD390079915B /* o.44 실습.app */,
 				008C9077187FBD3A0079915B /* o.44 실습Tests.xctest */,
+				008C9092187FBF690079915B /* ModalViewController.app */,
+				008C90B1187FBF690079915B /* ModalViewControllerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,6 +159,8 @@
 				008C906F187FBD390079915B /* ViewController.m */,
 				008C9071187FBD3A0079915B /* Images.xcassets */,
 				008C9060187FBD390079915B /* Supporting Files */,
+				008C90CB187FBFE50079915B /* ModalViewController.h */,
+				008C90CC187FBFE50079915B /* ModalViewController.m */,
 			);
 			path = "o.44 실습";
 			sourceTree = "<group>";
@@ -190,6 +232,41 @@
 			productReference = 008C9077187FBD3A0079915B /* o.44 실습Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		008C9091187FBF690079915B /* ModalViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 008C90BF187FBF690079915B /* Build configuration list for PBXNativeTarget "ModalViewController" */;
+			buildPhases = (
+				008C908E187FBF690079915B /* Sources */,
+				008C908F187FBF690079915B /* Frameworks */,
+				008C9090187FBF690079915B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ModalViewController;
+			productName = ModalViewController;
+			productReference = 008C9092187FBF690079915B /* ModalViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		008C90B0187FBF690079915B /* ModalViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 008C90C2187FBF690079915B /* Build configuration list for PBXNativeTarget "ModalViewControllerTests" */;
+			buildPhases = (
+				008C90AD187FBF690079915B /* Sources */,
+				008C90AE187FBF690079915B /* Frameworks */,
+				008C90AF187FBF690079915B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				008C90B6187FBF690079915B /* PBXTargetDependency */,
+			);
+			name = ModalViewControllerTests;
+			productName = ModalViewControllerTests;
+			productReference = 008C90B1187FBF690079915B /* ModalViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -200,6 +277,9 @@
 				ORGANIZATIONNAME = "SDT-1";
 				TargetAttributes = {
 					008C9076187FBD3A0079915B = {
+						TestTargetID = 008C9055187FBD390079915B;
+					};
+					008C90B0187FBF690079915B = {
 						TestTargetID = 008C9055187FBD390079915B;
 					};
 				};
@@ -219,6 +299,8 @@
 			targets = (
 				008C9055187FBD390079915B /* o.44 실습 */,
 				008C9076187FBD3A0079915B /* o.44 실습Tests */,
+				008C9091187FBF690079915B /* ModalViewController */,
+				008C90B0187FBF690079915B /* ModalViewControllerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -242,6 +324,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		008C9090187FBF690079915B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		008C90AF187FBF690079915B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -249,6 +345,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				008C90CD187FBFE50079915B /* ModalViewController.m in Sources */,
 				008C9070187FBD390079915B /* ViewController.m in Sources */,
 				008C906A187FBD390079915B /* AppDelegate.m in Sources */,
 				008C9066187FBD390079915B /* main.m in Sources */,
@@ -263,6 +360,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		008C908E187FBF690079915B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		008C90AD187FBF690079915B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -270,6 +381,11 @@
 			isa = PBXTargetDependency;
 			target = 008C9055187FBD390079915B /* o.44 실습 */;
 			targetProxy = 008C907C187FBD3A0079915B /* PBXContainerItemProxy */;
+		};
+		008C90B6187FBF690079915B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 008C9091187FBF690079915B /* ModalViewController */;
+			targetProxy = 008C90B5187FBF690079915B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -441,6 +557,80 @@
 			};
 			name = Release;
 		};
+		008C90C0187FBF690079915B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ModalViewController/ModalViewController-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ModalViewController/ModalViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		008C90C1187FBF690079915B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ModalViewController/ModalViewController-Prefix.pch";
+				INFOPLIST_FILE = "ModalViewController/ModalViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		008C90C3187FBF690079915B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/o.44 실습.app/o.44 실습";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ModalViewController/ModalViewController-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ModalViewControllerTests/ModalViewControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		008C90C4187FBF690079915B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/o.44 실습.app/o.44 실습";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ModalViewController/ModalViewController-Prefix.pch";
+				INFOPLIST_FILE = "ModalViewControllerTests/ModalViewControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -466,6 +656,22 @@
 			buildConfigurations = (
 				008C908C187FBD3A0079915B /* Debug */,
 				008C908D187FBD3A0079915B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		008C90BF187FBF690079915B /* Build configuration list for PBXNativeTarget "ModalViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				008C90C0187FBF690079915B /* Debug */,
+				008C90C1187FBF690079915B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		008C90C2187FBF690079915B /* Build configuration list for PBXNativeTarget "ModalViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				008C90C3187FBF690079915B /* Debug */,
+				008C90C4187FBF690079915B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "008C9055187FBD390079915B"
-               BuildableName = "o.44 &#4361;&#4469;&#4527;&#4361;&#4467;&#4536;.app"
-               BlueprintName = "o.44 &#4361;&#4469;&#4527;&#4361;&#4467;&#4536;"
+               BlueprintIdentifier = "008C9091187FBF690079915B"
+               BuildableName = "ModalViewController.app"
+               BlueprintName = "ModalViewController"
                ReferencedContainer = "container:o.44 &#4361;&#4469;&#4527;&#4361;&#4467;&#4536;.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,33 +28,13 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "008C9076187FBD3A0079915B"
-               BuildableName = "o.44 &#4361;&#4469;&#4527;&#4361;&#4467;&#4536;Tests.xctest"
-               BlueprintName = "o.44 &#4361;&#4469;&#4527;&#4361;&#4467;&#4536;Tests"
-               ReferencedContainer = "container:o.44 &#4361;&#4469;&#4527;&#4361;&#4467;&#4536;.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "008C90B0187FBF690079915B"
-               BuildableName = "ModalViewControllerTests.xctest"
-               BlueprintName = "ModalViewControllerTests"
-               ReferencedContainer = "container:o.44 &#4361;&#4469;&#4527;&#4361;&#4467;&#4536;.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "008C9055187FBD390079915B"
-            BuildableName = "o.44 &#4361;&#4469;&#4527;&#4361;&#4467;&#4536;.app"
-            BlueprintName = "o.44 &#4361;&#4469;&#4527;&#4361;&#4467;&#4536;"
+            BlueprintIdentifier = "008C9091187FBF690079915B"
+            BuildableName = "ModalViewController.app"
+            BlueprintName = "ModalViewController"
             ReferencedContainer = "container:o.44 &#4361;&#4469;&#4527;&#4361;&#4467;&#4536;.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -71,9 +51,9 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "008C9055187FBD390079915B"
-            BuildableName = "o.44 &#4361;&#4469;&#4527;&#4361;&#4467;&#4536;.app"
-            BlueprintName = "o.44 &#4361;&#4469;&#4527;&#4361;&#4467;&#4536;"
+            BlueprintIdentifier = "008C9091187FBF690079915B"
+            BuildableName = "ModalViewController.app"
+            BlueprintName = "ModalViewController"
             ReferencedContainer = "container:o.44 &#4361;&#4469;&#4527;&#4361;&#4467;&#4536;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -89,9 +69,9 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "008C9055187FBD390079915B"
-            BuildableName = "o.44 &#4361;&#4469;&#4527;&#4361;&#4467;&#4536;.app"
-            BlueprintName = "o.44 &#4361;&#4469;&#4527;&#4361;&#4467;&#4536;"
+            BlueprintIdentifier = "008C9091187FBF690079915B"
+            BuildableName = "ModalViewController.app"
+            BlueprintName = "ModalViewController"
             ReferencedContainer = "container:o.44 &#4361;&#4469;&#4527;&#4361;&#4467;&#4536;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

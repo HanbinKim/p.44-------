@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  Modal.h
 //  o.44 실습
 //
 //  Created by SDT-1 on 2014. 1. 10..
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController <UITextFieldDelegate>
-@property (weak, nonatomic) IBOutlet UITextField *mainInput;
-
+@interface Modal : UIViewController
 
 @end
